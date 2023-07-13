@@ -1,0 +1,16 @@
+'''
+operação ternária ( condicional de uma linha )
+<valor> if <condição> else <outro valor>
+'''
+
+# print('valor' if True else 'outro valor')
+
+condicao = 10 < 11
+variavel = 'era verdade' if condicao else 'era mentira'
+print(variavel)
+
+
+digito = 9
+novo_digito = digito if digito <= 9 else 0
+novo_digito = 0 if digito > 9 else digito
+print(novo_digito)
